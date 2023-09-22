@@ -11,4 +11,6 @@ export class CreateOrderDTO  {
     @IsString()
     @Length(20, 150)
     address: string;
+
+    productId: string;
   }
